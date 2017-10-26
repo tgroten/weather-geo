@@ -23,7 +23,7 @@ type HTMLError struct {
 
 func LatLongByAddress(w http.ResponseWriter, req *http.Request) {
 
-	client, _ := maps.NewClient(maps.WithAPIKey("AIzaSyBKJ5hORqnuHg33bzcB7AyZBDr7jKzhwsc"))
+	client, _ := maps.NewClient(maps.WithAPIKey("{{sign up at https://developers.google.com/maps/documentation/geolocation/intro to get a key}}"))
 
 	r := &maps.GeocodingRequest{
 		Address: req.URL.Path[len("/latlongByAddress/"):],
