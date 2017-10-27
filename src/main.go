@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/arcusnext/weather-geo/src/handlers"
+	"bitbucket.org/arcusnext/weather-geo/src/handlers"
 )
 
 func main() {
